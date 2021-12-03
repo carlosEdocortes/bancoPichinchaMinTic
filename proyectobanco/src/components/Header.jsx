@@ -12,7 +12,7 @@ export function Header() {
 
             <nav className="navbar navbar-light bg-light">
                 <a className="navbar-brand" href="www.google.com">
-                    <img src={logo} width="50" height="50" className="d-inline-block align-top" alt="imagen" />
+                    <img src={logo} width="150" height="150" className="d-inline-block align-top divStyle" alt="imagen" />
                 </a>
                 <button type="button" className="btn btn-warning">Solicitar Credito</button>
             </nav>
