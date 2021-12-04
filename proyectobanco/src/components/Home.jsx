@@ -1,11 +1,18 @@
-import { Header } from "./Header";
+import { Footer } from "./footer/Footer";
+import { Header } from "./header/Header";
+
 
 export function Home() {
     return (
         <>
-            <header>
-                <Header />
-            </header>
+
+            <body>
+                <div>
+
+                </div>
+
+            </body>
+
 
         </>
     );
