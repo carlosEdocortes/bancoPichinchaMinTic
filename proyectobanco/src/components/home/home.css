@@ -1,0 +1,81 @@
+/* bx-credit-card 1 */
+.credit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100px;
+  height: 100px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.vector {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 16.67%;
+  bottom: 16.67%;
+}
+
+.vector {
+  position: absolute;
+  left: 25%;
+  right: 50%;
+  top: 58.33%;
+  bottom: 33.33%;
+}
+
+.simulador {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 670px;
+  top: 915px;
+}
+
+/* Vector */
+.vect {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 12.5%;
+  bottom: 12.5%;
+}
+.Slider {
+  display: flex;
+  width: auto;
+  height: 25rem;
+  align-items: center;
+}
+
+/* Slider 1 */
+.slider1 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.conoce {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  color: #0e2854;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 400px;
+  width: 100%;
+  align-content: flex-start;
+}
+
+.descripcion {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  color: #fcd61b;
+  justify-content: center;
+}

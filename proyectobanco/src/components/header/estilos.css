@@ -1,0 +1,10 @@
+.navbarM {
+  background-color: #1b2d54;
+}
+.botones {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-right: 20px !important;
+}
