@@ -5,19 +5,21 @@ import './login.css';
 export function Login() {
     return (
         <>
-            <body className="row justify-content-md-center p-5">
-                <form className="formulario">
-                    <h1 className="title_form">LOGIN</h1>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+            <body className="row justify-content-center aling-items-center p-5">
+                <form className="row justify-content-center aling-items-center formulario">
+                    <h1 className="title_form m-4">LOGIN</h1>
+                    <div className="form-floating mb-3">
+                        <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
                         <label for="floatingInput">Numero de identificación</label>
                     </div>
-                    <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+                    <div className="form-floating">
+                        <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
                         <label for="floatingPassword">Password</label>
                     </div>
-                    <button type="button" class="btn btn-warning m-3">Login</button>
-                    <p><a href="/registro">Crear cuenta nueva</a></p>
+                    <div className="col-sm-4 text-center">
+                        <input type="submit" className="btn btn-warning mt-3" value='Login' />
+                    </div>
+                    <a className="mb-2" href="/registro">Crear cuenta nueva</a>
                 </form>
             </body>
         </>
