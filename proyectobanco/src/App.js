@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from './components/footer/Footer';
 import { Home } from './components/home/Home';
+import { Credito } from './components/solicitudCredito/Credito';
 function App() {
   return (
     <>
@@ -12,7 +13,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/listado" element={<Header />}></Route>
+          <Route path="/credito" element={<Credito />}></Route>
+          <Route path="/prueba" ></Route>
         </Routes>
       </BrowserRouter>
       <div>

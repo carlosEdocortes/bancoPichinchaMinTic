@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../images/banco-pichincha.svg'
 import './estilos.css'
 export function Header() {
@@ -16,9 +17,8 @@ export function Header() {
                 </a>
                 <div className="botones">
 
-                    <button type="button" className="btn btn-warning col botones">Inicio</button>
-
-                    <button type="button" className="btn btn-warning separacion botones">Credito</button>
+                    <a href='/'><button type="button" className="btn btn-warning col botones" href='/'>Inicio</button></a>
+                    <a href='/credito'><button type="button" className="btn btn-warning separacion botones" >Credito</button></a>
 
                     <button type="button" className="btn btn-warning separacion botones">Servicios</button>
 
