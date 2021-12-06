@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from './components/footer/Footer';
 import { Home } from './components/home/Home';
 import { Credito } from './components/solicitudCredito/Credito';
+import { Login } from './components/login/Login';
+import { Registro } from './components/registro/Registro';
+
 function App() {
   return (
     <>
@@ -14,6 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/credito" element={<Credito />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/registro" element={<Registro />}></Route>
           <Route path="/prueba" ></Route>
         </Routes>
       </BrowserRouter>
