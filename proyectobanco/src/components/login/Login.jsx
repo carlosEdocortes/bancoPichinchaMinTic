@@ -5,7 +5,7 @@ import './login.css';
 export function Login() {
     return (
         <>
-            <body className="row justify-content-center aling-items-center p-5">
+            <body className="row justify-content-center aling-items-center p-5 fondo-login">
                 <form className="row justify-content-center aling-items-center formulario">
                     <h1 className="title_form m-4">LOGIN</h1>
                     <div className="form-floating mb-3">

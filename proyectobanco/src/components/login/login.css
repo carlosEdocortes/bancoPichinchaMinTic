@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.fondo-login{
+    background-image: url('../../images/f_b_pichinch.jpg');
+    background-position: center;
+    background-size: contain;
+}
 
 .formulario{
     background: #1B2D54;

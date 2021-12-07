@@ -5,7 +5,7 @@ import './registro.css';
 export function Registro() {
     return (
     <>
-        <body className="row justify-content-center aling-items-center p-5">
+        <body className="row justify-content-center aling-items-center p-5 fondo-registro">
             <form className="row justify-content-center aling-items-center formulario">
                 <h1 className="title_form m-4">REGISTRO</h1>
                 <div className="form-floating mb-3">
@@ -54,9 +54,9 @@ export function Registro() {
                 </div>
                 <p>Estoy de acuerdo con <a className="mb-2" href="#">Terminos y condiciones</a></p>
                 <div className="col-sm-4 text-center">
-                    <input type="submit" className="btn btn-warning mt-3" value='Registrar' />
+                    <input type="submit" className="btn btn-warning mt-1" value='Registrar' />
                 </div>
-                <a className="mb-2" href="/login">Ya tengo una cuenta?</a>
+                <a className="mb-3" href="/login">Ya tengo una cuenta?</a>
             </form>
         </body>
     </>

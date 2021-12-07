@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    color: #fff;
+}
+
+.fondo-contacto {
+    background-image: url('../../images/fodo_contacto.jpg');
+}
+
+.lbl-contact{
+    color: #fff;
+}

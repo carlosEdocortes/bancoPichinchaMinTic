@@ -6,3 +6,9 @@
 p{
     color: #fff;
 }
+
+.fondo-registro{
+    background-image: url('../../images/f_b_pichinch.jpg');
+    background-position: center;
+    background-size: cover;
+}
