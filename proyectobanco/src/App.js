@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from './components/footer/Footer';
 import { Home } from './components/home/Home';
 import { Credito } from './components/solicitudCredito/Credito';
+import { Simularcredito } from './components/simularCredito/Simularcredito';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/credito" element={<Credito />}></Route>
           <Route path="/prueba" ></Route>
+          <Route path="/simularcredito" element={<Simularcredito />} ></Route>
         </Routes>
       </BrowserRouter>
       <div>
