@@ -1,3 +1,52 @@
 .letra {
-  color: blue !important;
+  color: #0f265c !important;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  margin-left: 15rem;
+}
+.box {
+  display: flex;
+  background-color: #fcd61b;
+  border: 2px solid #fcd61b;
+  border-radius: 25px;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+  height: 45rem;
+  flex-direction: column;
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.content {
+  height: max-content;
+  width: 80rem;
+}
+.titulo {
+  display: flex;
+  margin-left: 10rem;
+  flex-direction: row;
+}
+.inp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 15rem;
+  margin-top: 2rem;
+}
+.controlinput {
+  display: flex;
+  width: 50rem;
+  margin-left: 1rem;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  background-color: #0f265c;
+  color: whitesmoke;
+  margin-left: 30rem;
+  margin-top: 1rem;
 }
