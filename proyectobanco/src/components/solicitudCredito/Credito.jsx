@@ -2,7 +2,7 @@ import './credito.css'
 import { BsFillHexagonFill, BsFillCreditCardFill, BsClockHistory } from 'react-icons/bs';
 export function Credito() {
     return (<>
-        <div className="container box">
+        <div className="container boxes ">
             <div>
                 <h1 className="texto"> Solicitud de crédito de vivienda </h1>
             </div>
