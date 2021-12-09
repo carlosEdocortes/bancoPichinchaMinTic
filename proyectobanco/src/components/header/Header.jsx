@@ -19,7 +19,7 @@ export function Header() {
 
                     <DropdownButton title="Servicios"  >
                         <Dropdown.Item href="/simularcredito">Simulador crédito</Dropdown.Item>
-                        <Dropdown.Item href="/historialcredito">Historial de crédito</Dropdown.Item>
+                        <Dropdown.Item href="/historial">Historial de crédito</Dropdown.Item>
                         <Dropdown.Item href="/prorroga">Solicitud de prorroga</Dropdown.Item>
                     </DropdownButton>
 
