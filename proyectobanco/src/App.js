@@ -5,7 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from './components/footer/Footer';
 import { Home } from './components/home/Home';
-import { Credito } from './components/solicitudCredito/Credito';
+import { HistPagosClientes } from './components/historialPagosClientes/HistPagosClientes';
+import { ConsultaCreditosVigentes } from './components/consultaCreditosVigentes/ConsultaCreditosVigentes';
+import { AprobacionCreditos } from './components/aprobacionCreditos/AprobacionCreditos';
+
 function App() {
   return (
     <>
@@ -13,8 +16,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/credito" element={<Credito />}></Route>
-          <Route path="/prueba" ></Route>
+          <Route path="/HistPagosClientes" element={<HistPagosClientes />}></Route>
+          <Route path="/ConsultaCreditosVigentes" element={<ConsultaCreditosVigentes />}></Route>
+          <Route path="/AprobacionCreditos" element={<AprobacionCreditos />}></Route>
         </Routes>
       </BrowserRouter>
       <div>
