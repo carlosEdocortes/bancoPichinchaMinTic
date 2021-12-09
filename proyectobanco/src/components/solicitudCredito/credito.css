@@ -5,9 +5,9 @@
   font-size: 2rem;
   margin-left: 15rem;
 }
-.box {
+.boxes {
   display: flex;
-  background-color: #fcd61b;
+  background-color: #fcd61b !important;
   border: 2px solid #fcd61b;
   border-radius: 25px;
   margin-top: 3rem;
@@ -22,8 +22,8 @@
   margin-left: 5rem;
 }
 .content {
-  height: max-content;
-  width: 80rem;
+  height: max-content !important;
+  width: 80rem !important;
 }
 .titulo {
   display: flex;

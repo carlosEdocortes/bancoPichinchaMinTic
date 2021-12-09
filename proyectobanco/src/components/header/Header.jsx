@@ -1,11 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
 import logo from '../../images/banco-pichincha.svg'
 import './estilos.css'
 export function Header() {
-    const divStyle = {
-        'margin-left': '20px',
-        'margin-right': '20px'
-    };
+    const color = '#ffc107'
 
     return (
         <div>
@@ -18,13 +15,17 @@ export function Header() {
                 <div className="botones">
 
                     <a href='/'><button type="button" className="btn btn-warning col botones" href='/'>Inicio</button></a>
-                    <a href='/credito'><button type="button" className="btn btn-warning separacion botones" >Credito</button></a>
+                    <a href='/credito'><button type="button" className="btn btn-warning botones" >Credito</button></a>
 
-                    <button type="button" className="btn btn-warning separacion botones">Servicios</button>
+                    <DropdownButton title="Servicios"  >
+                        <Dropdown.Item href="/simularcredito">Simulador crédito</Dropdown.Item>
+                        <Dropdown.Item href="/historialcredito">Historial de crédito</Dropdown.Item>
+                        <Dropdown.Item href="/prorroga">Solicitud de prorroga</Dropdown.Item>
+                    </DropdownButton>
 
-                    <button type="button" className="btn btn-warning separacion botones">Contactenos</button>
+                    <button type="button" className="btn btn-warning  botones">Contactenos</button>
 
-                    <button type="button" className="btn btn-warning separacion botones">Login</button>
+                    <button type="button" className="btn btn-warning  botones">Login</button>
                 </div>
             </nav>
         </div>

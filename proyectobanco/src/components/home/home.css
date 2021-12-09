@@ -65,11 +65,14 @@
 }
 .box {
   display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  height: 400px;
+  flex-direction: row !important;
+  align-items: center;
+  height: 380px !important;
   width: 100%;
   align-content: flex-start;
+  color: transparent;
+  background-color: white !important;
+  border: white !important;
 }
 
 .descripcion {
