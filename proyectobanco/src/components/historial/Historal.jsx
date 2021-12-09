@@ -1,8 +1,14 @@
 import './historial.css'
+import { Dropdown, DropdownButton } from 'react-bootstrap';
 export function Historial() {
 
     return (<>
-        <input type="button" className="btn btn-warning btn1" value="Reportes"></input>
+        <input type="button" className="btn btn-warning btn1" hidden="true" value="Reportes"></input>
+        <DropdownButton title="Reportes" className="drop"  >
+            <Dropdown.Item href="/simularcredito">Excel</Dropdown.Item>
+            <Dropdown.Item href="/historial">Pdf</Dropdown.Item>
+            <Dropdown.Item href="/prorroga">Csv</Dropdown.Item>
+        </DropdownButton>
         <div className="table-responsive-md tabl">
             <table className="table">
                 <caption>Historial Crédito</caption>
