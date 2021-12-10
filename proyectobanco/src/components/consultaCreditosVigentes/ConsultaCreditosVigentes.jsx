@@ -17,92 +17,85 @@ export function ConsultaCreditosVigentes() {
                             <th scope="col">Num doc</th>
                             <th scope="col">Tipo credito</th>
                             <th scope="col">Valor credito</th>
-                            <th scope="col">Numero Cuotas</th>
+                            <th scope="col">Numero cuotas</th>
                             <th scope="col">Fecha inicio</th>
                             <th scope="col">Fecha fin</th>
                             <th scope="col">Referencia</th>
-                            <th scope="col">Num cuotas</th>
                             <th scope="col">Estado</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td>C</td>
+                            <td>123456</td>
+                            <td>Vivienda</td>
+                            <td>1000000</td>
+                            <td>20</td>
+                            <td>01/05/2020</td>
+                            <td>01/01/2022</td>
+                            <td>C-0001</td>
+                            <td>ACTIVO</td>
                         </tr>
                         <tr class="row-2">
                             <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
+                            <td>C</td>
+                            <td>789456</td>
+                            <td>Vivienda</td>
+                            <td>500000</td>
+                            <td>20</td>
+                            <td>01/05/2020</td>
+                            <td>01/01/2022</td>
+                            <td>C-0002</td>
+                            <td>ACTIVO</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
+                            <td>C</td>
+                            <td>963852</td>
+                            <td>Vivienda</td>
+                            <td>100000</td>
+                            <td>2</td>
+                            <td>01/02/2020</td>
+                            <td>01/04/2020</td>
+                            <td>C-0003</td>
+                            <td>FINALIZADO</td>
                         </tr>
                         <tr class="row-2">
                             <th scope="row">4</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td>CE</td>
+                            <td>741852</td>
+                            <td>Vivienda</td>
+                            <td>2500000</td>
+                            <td>24</td>
+                            <td>15/03/2020</td>
+                            <td>15/03/2022</td>
+                            <td>C-0004</td>
+                            <td>ACTIVO</td>
                         </tr>
                         <tr>
                             <th scope="row">5</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
+                            <td>C</td>
+                            <td>258963</td>
+                            <td>Vivienda</td>
+                            <td>1500000</td>
+                            <td>36</td>
+                            <td>15/12/2020</td>
+                            <td>15/12/2023</td>
+                            <td>C-0005</td>
+                            <td>ACTIVO</td>
                         </tr>
                         <tr class="row-2">
                             <th scope="row">6</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
+                            <td>C</td>
+                            <td>123789</td>
+                            <td>Vivienda</td>
+                            <td>7000000</td>
+                            <td>15</td>
+                            <td>01/12/2021</td>
+                            <td>01/03/2023</td>
+                            <td>C-0006</td>
+                            <td>CANCELADO</td>
                         </tr>
                     </tbody>
                 </table>

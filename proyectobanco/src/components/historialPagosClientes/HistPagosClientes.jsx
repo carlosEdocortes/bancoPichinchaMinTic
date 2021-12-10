@@ -16,7 +16,7 @@ export function HistPagosClientes() {
                         </select>
                     </div>
                     <div className="col-sm-4 ps-2 pe-2">
-                        <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Numero de documento"/>
+                        <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Número de documento"/>
                     </div>
                     <div className="col-sm-4 text-center pe-5">
                         <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Referencia de credito"/>
@@ -50,63 +50,63 @@ export function HistPagosClientes() {
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td>02/02/2020</td>
+                            <td>Heyder Belalcazar</td>
+                            <td>PSE</td>
+                            <td>C-0001</td>
+                            <td>1</td>
+                            <td>10000</td>
+                            <td>300000</td>
                         </tr>
                         <tr class="row-2">
                             <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
+                            <td>02/02/2021</td>
+                            <td>Arnold Suarez</td>
+                            <td>PSE</td>
+                            <td>C-0002</td>
+                            <td>2</td>
+                            <td>20000</td>
+                            <td>3000000</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
+                            <td>07/08/2020</td>
+                            <td>Carlos Cortés</td>
+                            <td>Tarjeta credito</td>
+                            <td>C-0003</td>
+                            <td>5</td>
+                            <td>500000</td>
+                            <td>100000</td>
                         </tr>
                         <tr class="row-2">
                             <th scope="row">4</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td>07/08/2021</td>
+                            <td>Lyda Rodriguez</td>
+                            <td>Tarjeta credito</td>
+                            <td>C-0004</td>
+                            <td>6</td>
+                            <td>250000</td>
+                            <td>0</td>
                         </tr>
                         <tr>
                             <th scope="row">5</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
-                            <td>Thornton</td>
+                            <td>14/09/2021</td>
+                            <td>Aura Casseres</td>
+                            <td>Tarjeta credito</td>
+                            <td>C-0005</td>
+                            <td>8</td>
+                            <td>120000</td>
+                            <td>120000</td>
                         </tr>
                         <tr class="row-2">
                             <th scope="row">6</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>the Bird</td>
+                            <td>19/01/2021</td>
+                            <td>Jose Perez</td>
+                            <td>Tarjeta debito</td>
+                            <td>C-0006</td>
+                            <td>3</td>
+                            <td>130000</td>
+                            <td>850000</td>
                         </tr>
                     </tbody>
                 </table>

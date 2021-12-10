@@ -8,6 +8,7 @@ import { Home } from './components/home/Home';
 import { HistPagosClientes } from './components/historialPagosClientes/HistPagosClientes';
 import { ConsultaCreditosVigentes } from './components/consultaCreditosVigentes/ConsultaCreditosVigentes';
 import { AprobacionCreditos } from './components/aprobacionCreditos/AprobacionCreditos';
+import { AprobacionProrroga } from './components/aprobacionProrroga/AprobacionProrroga';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/HistPagosClientes" element={<HistPagosClientes />}></Route>
           <Route path="/ConsultaCreditosVigentes" element={<ConsultaCreditosVigentes />}></Route>
           <Route path="/AprobacionCreditos" element={<AprobacionCreditos />}></Route>
+          <Route path="/AprobacionProrroga" element={<AprobacionProrroga />}></Route>
         </Routes>
       </BrowserRouter>
       <div>
