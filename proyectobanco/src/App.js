@@ -11,6 +11,7 @@ import { AprobacionProrroga } from './components/aprobacionProrroga/AprobacionPr
 import { Credito } from './components/solicitudCredito/Credito';
 import { Simularcredito } from './components/simularCredito/Simularcredito';
 import { Historial } from './components/historial/Historal';
+import { Prorroga } from './components/prorroga/Prorroga';
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/credito" element={<Credito />}></Route>
           <Route path="/simularcredito" element={<Simularcredito />} ></Route>
           <Route path="/historial" element={<Historial />} ></Route>
+          <Route path="/prorroga" element={<Prorroga />}></Route>
         </Routes>
       </BrowserRouter>
       <div>
