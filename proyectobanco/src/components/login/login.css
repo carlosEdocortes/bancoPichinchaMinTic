@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fondo-login{
+    background-image: url('../../images/f_b_pichinch.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+.formulario{
+    background: #1B2D54;
+    width: 50vw;
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+.title_form{
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}

@@ -23,9 +23,9 @@ export function Header() {
                         <Dropdown.Item href="/prorroga">Solicitud de prorroga</Dropdown.Item>
                     </DropdownButton>
 
-                    <button type="button" className="btn btn-warning  botones">Contactenos</button>
+                    <a href='/contacto'><button type="button" className="btn btn-warning separacion botones">Contactenos</button></a>
 
-                    <button type="button" className="btn btn-warning  botones">Login</button>
+                    <a href='/login'><button type="button" className="btn btn-warning separacion botones">Login</button></a>
                 </div>
             </nav>
         </div>
