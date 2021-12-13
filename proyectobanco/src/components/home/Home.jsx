@@ -13,7 +13,7 @@ export function Home() {
                 </div>
 
                 <div className="container-sm col-12">
-                    <h1 className="conoce text-center">CONOCE Y SOLICITA NUESTROS PRODUCTOS</h1>
+                    <h1 className="conoce text-center">CONOCE Y SOLICITA NUESTROS PRODUCTOS.</h1>
                     <div className="box">
                         <div>
                             <img src={credito} alt="imagen" className="credit" />
