@@ -26,80 +26,72 @@ app.get('/login/:nombre/', function (req, res) {
 app.get('/aprobacionCreditos/:documento/', function (req, res) {
     const creditos = aprobacionCreditos.find(j => j.documento === req.params.documento)
     
-    if (!creditos){
-        res.send({
-            status: "error",
-            msg: "cliente no encontrado"
+    if (creditos){
+        res.json(200, {
+            msg:"cliente encontrado",
+            datos: creditos
+        });
+    }
+    else{
+        res.json(404, {
+            msg: "cliente no encontrado",
         });
 
         return false
-    }
-    else{
-        res.send({
-            status: "ok",
-            msg: "cliente encontrado",
-            datos: creditos
-        });
     }
 })
 
 app.get('/aprobacionProrroga/:documento/', function (req, res) {
     const prorroga = aprobacionProrroga.find(j => j.documento === req.params.documento)
 
-    if (!prorroga){
-        res.send({
-            status: "error",
-            msg: "cliente no encontrado"
-        });
-
-        return false
-    }
-    else{
-        res.send({
-            status: "ok",
+    if (prorroga){
+        res.json(200, {
             msg: "cliente encontrado",
             datos: prorroga
         });
+    }
+    else{
+        res.json(404, {
+            msg: "cliente no encontrado",
+        });
+
+        return false
     }
 })
 
 app.get('/consultaCreditosVigentes/:id/', function (req, res) {
     const consulta = consultaCreditosVigentes.find(j => j.id === req.params.id)
 
-    if (!consulta){
-        res.send({
-            status: "error",
-            msg: "credito no encontrado"
-        });
-
-        return false
-    }
-    else{
-        res.send({
-            status: "ok",
+    if (consulta){
+        res.json(200, {
             msg: "credito encontrado",
             datos: consulta
         });
+    }
+    else{
+        res.json(404, {
+            msg: "credito no encontrado",
+        });
+
+        return false
     }
 })
 
 app.get('/historialPagosClientes/:id/', function (req, res) {
     const consulta = historialPagosClientes.find(j => j.id === req.params.id)
 
-    if (!consulta){
-        res.send({
-            status: "error",
-            msg: "credito no encontrado"
-        });
-
-        return false
-    }
-    else{
-        res.send({
-            status: "ok",
+    if (consulta){
+        res.json(200, {
             msg: "credito encontrado",
             datos: consulta
         });
+    }
+    else{
+        res.json(404, {
+            msg: "credito no encontrado",
+        });
+
+        return false
     }
 })
 
