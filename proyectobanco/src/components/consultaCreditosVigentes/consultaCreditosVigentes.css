@@ -1,0 +1,65 @@
+.titulo-principal {
+  font-style: normal;
+  font-weight: bold;
+  color: #1b2d54;
+  text-align: center;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.titulo-complementario {
+  font-style: normal;
+  font-weight: bold;
+  color: whitesmoke !important;
+  text-align: left;
+}
+
+.encabezado {
+  background-color: rgba(27, 45, 84, 0.9);
+}
+
+.row-1 {
+  background-color: #ffffff;
+}
+
+.row-2 {
+  background-color: #c4c4c4;
+}
+
+.inp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 15rem;
+  margin-top: 2rem;
+}
+
+.boton {
+  width: 150px;
+  height: 35px;
+  background-color: rgba(27, 45, 84, 0.9);
+  border-radius: 20px;
+  color: whitesmoke !important;
+}
+
+.boton2 {
+  width: 150px;
+  height: 35px;
+  background-color: #fcd61b;
+  border-radius: 20px;
+  color: whitesmoke !important;
+}
+
+.text-boton {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke !important;
+}
+
+.text-boton2 {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #fcd61b !important;
+}
