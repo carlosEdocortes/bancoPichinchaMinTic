@@ -8,6 +8,7 @@ const { aprobacionCreditos } = require("./aprobacionCreditos")
 const { aprobacionProrroga } = require("./aprobacionProrroga")
 const { consultaCreditosVigentes } = require("./consultaCreditosVigentes")
 const { historialPagosClientes } = require("./historialPagosClientes")
+const { historial } = require("./historialcredito")
 const app = express();
 const cors = require("cors");
 app.use(cors())
@@ -131,6 +132,48 @@ app.get('/historialPagosClientes/:id/', function (req, res) {
 
         return false
     }
+})
+app.get('/simulacioncredito/:tipo/:cuotas/:valor', function (req, res) {
+
+    let valor_capital = req.params.valor ? req.params.valor : "no ingresó el valor";
+    let cuotas = req.params.cuotas ? req.params.cuotas : "no ingresó la cuota";
+    let tasamensual = 0.021;
+
+
+    if (!valor_capital || !cuotas) {
+        res.json(404, {
+            msg: "Error No se ingresan todos los parametros"
+        })
+    } else {
+        let valorCuota = (valor_capital * (tasamensual * (1 + tasamensual) ^ cuotas)) / (((1 + tasamensual) ^ cuotas) - 1);
+        res.json(200, {
+            msg: "Simulación realizada con exito",
+            data: valorCuota
+        })
+    }
+})
+app.get('/historial/:cedula', function (req, res) {
+    let approved = historial.filter(his => his.noCedula === req.params.cedula);
+    const cedula = historial.find(j => j.noCedula === req.params.cedula)
+
+    if (cedula) {
+        res.json(200, {
+            msg: "Historial encontrado",
+            datos: cedula,
+            datos2: approved
+        });
+    }
+    else {
+        res.json(404, {
+            msg: "Historial no encontrado",
+        });
+    }
+})
+app.get('/solicitudprorroga', function (req, res) {
+    res.json(200, {
+        msg: "solicitud enviada con exito"
+
+    })
 })
 
 app.listen(8082, () => {
