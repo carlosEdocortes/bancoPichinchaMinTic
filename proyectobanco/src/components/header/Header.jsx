@@ -22,13 +22,6 @@ export function Header() {
                         <Dropdown.Item href="/historial">Historial de crédito</Dropdown.Item>
                         <Dropdown.Item href="/prorroga">Solicitud de prorroga</Dropdown.Item>
                     </DropdownButton>
-                    <select >
-                        <option key="1" >Servicios</option>
-                        <option key="2" href="/simularcredito">Simulador crédito</option>
-                        <option key="3" href="/historial">Historial de crédito</option>
-                        <option key="4" href="/prorroga">Solicitud de prorroga</option>
-                    </select>
-
                     <a href='/contacto'><button type="button" className="btn btn-warning separacion botones">Contactenos</button></a>
 
                     <a href='/login'><button type="button" className="btn btn-warning separacion botones">Login</button></a>
