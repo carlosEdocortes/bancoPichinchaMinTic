@@ -1,0 +1,44 @@
+.titl {
+  display: flex;
+  color: #1b2d54;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.textb {
+  display: flex;
+  height: 20rem;
+  width: 100%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.conta {
+  display: flex;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: row !important;
+}
+.lb {
+  margin-left: 1rem;
+  width: 5rem;
+  height: max-content;
+}
+.bt {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 2rem !important;
+  color: #1b2d54;
+  width: 5rem;
+  border-radius: 3rem;
+  align-items: center;
+  margin: auto;
+}
+.contb {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
